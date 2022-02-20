@@ -1,0 +1,94 @@
+.container {
+  margin: 0 auto;
+}
+
+.header-container {
+  width: 480px;
+  margin: 0 auto;
+  padding: 0 15px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 320px) {
+  .container {
+    width: 480px;
+
+    .clients & {
+      padding: 60px 15px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .footer & {
+      padding: 0 15px;
+    }
+  }
+  .team {
+    padding: 60px 0;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header-container {
+    position: relative;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  header {
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    .team & {
+      width: 768px;
+    }
+
+    .features & {
+      width: 768px;
+    }
+  }
+  .header-container {
+    width: 768px;
+  }
+
+  .gallery {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+
+    .hero & {
+      padding-top: 200px;
+      padding-bottom: 200px;
+      text-align: center;
+    }
+
+    .about & {
+      padding-bottom: 94px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .team & {
+      padding: 94px 15px;
+      width: 1200px;
+    }
+
+    .features & {
+      width: 1200px;
+    }
+
+    .clients & {
+      padding: 94px 15px;
+    }
+  }
+  .header-container {
+    width: 1200px;
+  }
+}

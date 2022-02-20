@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BeGreen</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+   
+    <link rel="stylesheet" href="./css/portfolio.min.css">
+  </head>
+
+  <body>
+
+    <!--HEADER-->
+
+
+    <header>
+      <div class="container header-container">
+        <a href="./index.html" lang="en" class="logo link header-logo">Be<span class="logo-dark">Green</span></a>
+    
+        <button class="header__menu-button" type="button" aria-expanded="false" aria-controls="header__menu-container"
+          data-menu-button>
+          <svg class="img header__menu" width="40" height="40" aria-label="Переключатель мобильного меню">
+            <use class="header__icon-cross" href="./img/sprite.svg#icon-cross"></use>
+            <use class="header__icon-menu" href="./img/sprite.svg#menu"></use>
+          </svg></button>
+    
+        <div class="header__menu-container" data-menu id="header__menu-container">
+          <nav class="navigation">
+    
+            <ul class="navigation__list list">
+              <li class="navigation__item">
+                <a href="./index.html" class="navigation__link link">About us</a>
+              </li>
+              <li class="navigation__item">
+                <a href="./portfolio.html" class="navigation__link link active">Portfolio</a>
+              </li>
+              <li class="navigation__item">
+                <a href="" class="navigation__link link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="contacts-list list">
+            <li class="contacts-list__item">
+              <a href="mailto:info@devstudio.com" target="_blank" class="contacts-list__link link"><svg
+                  class="contacts-list__icon" width="16" height="12">
+                  <use href="./img/sprite.svg#mail"></use>
+                </svg>
+                ifno@begreenholistic.com</a>
+            </li>
+            <li class="contacts-list__item">
+              <a href="tel:+00000000000" class="contacts-list__link link">
+                <svg class="contacts-list__icon" width="10" height="16">
+                  <use href="./img/sprite.svg#phone"></use>
+                </svg>
+                +00 000 000 000</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!--PORTFOLIO-->
+    <main class="portfolio">
+      <section class="gallery container">
+        
+        <!--GALLERY PORTFOLIO-->
+        <ul class="gallery-list list">
+
+          <li class="gallery-list__item">
+            <a class="gallery-list__link link" href=""
+              ><div class="wrapper-img">
+
+                  <picture>
+                      <source srcset="./img/portfolio/portf1-desktop.jpg 1x, ./img/portfolio/portf1-desktop@2x.jpg 2x"
+                        media="(min-width: 1200px)">
+                      <source srcset="./img/portfolio/portf1-tablet.jpg 1x, ./img/portfolio/portf1-tablet@2x.jpg 2x"
+                        media="(min-width: 768px)">
+                      <source srcset="./img/portfolio/portf1-mobile.jpg 1x, ./img/portfolio/portf1-mobile@2x.jpg 2x"
+                        media="(min-width: 320px)">
+                  <img class="gallery-list__img" src="./img/portfolio/portf1-mobile.jpg" alt="макет веб-сайта" />
+                  </picture>
+
+                <div class="gallery-list__text is-hidden">
+                  <p>A customized treatment based on individual intake assessment which may include a combination of acupuncture,
+                      moxibustion, energy healing, craniosacral therapy, or a variety of other treatments based on personalized
+                      recommendations for you to discuss with our practitioner.</p>
+              </div>
+            </div>
+              <div class="gallery-list__description">
+                <h2 class="gallery-list__title">
+                  Holistic Integrative Therapy
+                </h2>
+                <p class="gallery-list__type">$290 / $370 50 or 80 minutes</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="gallery-list__item">
+            <a class="gallery-list__link link" href="">
+              <div class="wrapper-img">
+
+                <picture>
+                  <source srcset="./img/portfolio/portf2-desktop.jpg 1x, ./img/portfolio/portf2-desktop@2x.jpg 2x"
+                    media="(min-width: 1200px)">
+                  <source srcset="./img/portfolio/portf2-tablet.jpg 1x, ./img/portfolio/portf2-tablet@2x.jpg 2x"
+                    media="(min-width: 768px)">
+                  <source srcset="./img/portfolio/portf2-mobile.jpg 1x, ./img/portfolio/portf2-mobile@2x.jpg 2x"
+                    media="(min-width: 320px)">
+                  <img class="gallery-list__img" src="./img/portfolio/portf2-mobile.jpg" alt="два баскетболиста с мячем"/>
+                </picture>
+
+                <div class="gallery-list__text is-hidden">
+                  <p>Embracing the delicate harmony between the five earth elements -- wood, fire, earth, metal, and water -- and leave
+                  feeling relaxed and at peace.</p>
+                </div>
+              </div>
+              <div class="gallery-list__description">
+                <h2 class="gallery-list__title">
+                Five Elements Journey
+                </h2>
+                <p class="gallery-list__type">$150 per 60 minutes</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="gallery-list__item">
+            <a class="gallery-list__link link" href="">
+              <div class="wrapper-img">
+                <picture>
+                  <source srcset="./img/portfolio/portf3-desktop.jpg 1x, ./img/portfolio/portf3-desktop@2x.jpg 2x"
+                    media="(min-width: 1200px)">
+                  <source srcset="./img/portfolio/portf3-tablet.jpg 1x, ./img/portfolio/portf3-tablet@2x.jpg 2x"
+                    media="(min-width: 768px)">
+                  <source srcset="./img/portfolio/portf3-mobile.jpg 1x, ./img/portfolio/portf3-mobile@2x.jpg 2x"
+                    media="(min-width: 320px)">
+                  <img class="gallery-list__img" src="./img/portfolio/portf3-mobile.jpg" alt="логотип рыбного ресторана"/>
+                </picture>
+
+               
+                <div class="gallery-list__text is-hidden">
+                  <p>Hit the pedals and get going with a bike rental to see the sights around the beautiful property.</p>
+                </div>
+              </div>
+              <div class="gallery-list__description">
+                <h2 class="gallery-list__title">
+                  Bike Rentals
+                </h2>
+                <p class="gallery-list__type">$26 per hour, $78 for full day</p>
+              </div>
+            </a>
+          </li>
+
+        <li class="gallery-list__item">
+          <a class="gallery-list__link link" href="">
+            <div class="wrapper-img">
+              <picture>
+                <source srcset="./img/portfolio/portf4-desktop.jpg 1x, ./img/portfolio/portf4-desktop@2x.jpg 2x"
+                  media="(min-width: 1200px)">
+                <source srcset="./img/portfolio/portf4-tablet.jpg 1x, ./img/portfolio/portf4-tablet@2x.jpg 2x"
+                  media="(min-width: 768px)">
+                <source srcset="./img/portfolio/portf4-mobile.jpg 1x, ./img/portfolio/portf4-mobile@2x.jpg 2x"
+                  media="(min-width: 320px)">
+                <img class="gallery-list__img" src="./img/portfolio/portf4-mobile.jpg" alt="изображение наушников"/>
+              </picture>
+
+              <div class="gallery-list__text is-hidden">
+                <p>Serve up some fun and play a match on our newly updated DecoTurf cushioned tennis courts.</p>
+              </div>
+            </div>
+            <div class="gallery-list__description">
+              <h2 class="gallery-list__title">
+                Tennis
+              </h2>
+              <p class="gallery-list__type">$44.10 per hour</p>
+            </div>
+          </a>
+        </li>
+
+        <li class="gallery-list__item">
+          <a class="gallery-list__link link" href="">
+            <div class="wrapper-img">
+              <picture>
+                <source srcset="./img/portfolio/portf5-desktop.jpg 1x, ./img/portfolio/portf5-desktop@2x.jpg 2x"
+                  media="(min-width: 1200px)">
+                <source srcset="./img/portfolio/portf5-tablet.jpg 1x, ./img/portfolio/portf5-tablet@2x.jpg 2x"
+                  media="(min-width: 768px)">
+                <source srcset="./img/portfolio/portf5-mobile.jpg 1x, ./img/portfolio/portf5-mobile@2x.jpg 2x"
+                  media="(min-width: 320px)">
+                <img class="gallery-list__img" src="./img/portfolio/portf5-mobile.jpg" alt="две коробки"/>
+              </picture>
+
+
+              
+              <div class="gallery-list__text is-hidden">
+                <p>Discover unadulterated bliss at Woodlands Spa and Salon. Our diverse range of treatments and services will soothe the
+                mind, body, and spirit.</p>
+              </div>
+            </div>
+            <div class="gallery-list__description">
+              <h2 class="gallery-list__title">
+                Woodlands Spa and Salon
+              </h2>
+              <p class="gallery-list__type">seasonal sweet treats for $25</p>
+            </div>
+          </a>
+        </li>
+
+        <li class="gallery-list__item">
+          <a class="gallery-list__link link" href="">
+            <div class="wrapper-img">
+              <picture>
+                <source srcset="./img/portfolio/portf6-desktop.jpg 1x, ./img/portfolio/portf6-desktop@2x.jpg 2x"
+                  media="(min-width: 1200px)">
+                <source srcset="./img/portfolio/portf6-tablet.jpg 1x, ./img/portfolio/portf6-tablet@2x.jpg 2x"
+                  media="(min-width: 768px)">
+                <source srcset="./img/portfolio/portf6-mobile.jpg 1x, ./img/portfolio/portf6-mobile@2x.jpg 2x"
+                  media="(min-width: 320px)">
+                <img class="gallery-list__img" src="./img/portfolio/portf6-mobile.jpg" alt="макет веб-сайта"/>
+              </picture>
+
+              
+              <div class="gallery-list__text is-hidden">
+                <p>Elevate your game. Enjoy a round at either of our two Pete Dye-designed courses and perfect your swing at
+                the Golf Academy.</p>
+              </div>
+            </div>
+            <div class="gallery-list__description">
+              <h2 class="gallery-list__title">
+                Golf
+              </h2>
+              <p class="gallery-list__type">$120 per hour</p>
+            </div>
+          </a>
+        </li>
+
+        <li class="gallery-list__item">
+          <a class="gallery-list__link link" href="">
+            <div class="wrapper-img">
+              <picture>
+                <source srcset="./img/portfolio/portf7-desktop.jpg 1x, ./img/portfolio/portf7-desktop@2x.jpg 2x"
+                  media="(min-width: 1200px)">
+                <source srcset="./img/portfolio/portf7-tablet.jpg 1x, ./img/portfolio/portf7-tablet@2x.jpg 2x"
+                  media="(min-width: 768px)">
+                <source srcset="./img/portfolio/portf7-mobile.jpg 1x, ./img/portfolio/portf7-mobile@2x.jpg 2x"
+                  media="(min-width: 320px)">
+                <img class="gallery-list__img" src="./img/portfolio/portf7-mobile.jpg" alt="открытая книга с илюстрациями" />
+              </picture>
+
+              
+              <div class="gallery-list__text is-hidden">
+                <p>Whether you are looking for detox, hydration, or toning, this treatment will be customized to your body’s specific
+                needs.</p>
+              </div>
+            </div>
+            <div class="gallery-list__description">
+              <h2 class="gallery-list__title">
+                Customized Body Treatment
+              </h2>
+              <p class="gallery-list__type">$350 per hour</p>
+            </div>
+          </a>
+        </li>
+
+        <li class="gallery-list__item">
+          <a class="gallery-list__link link" href="">
+            <div class="wrapper-img">
+              <picture>
+                <source srcset="./img/portfolio/portf8-desktop.jpg 1x, ./img/portfolio/portf8-desktop@2x.jpg 2x"
+                  media="(min-width: 1200px)">
+                <source srcset="./img/portfolio/portf8-tablet.jpg 1x, ./img/portfolio/portf8-tablet@2x.jpg 2x"
+                  media="(min-width: 768px)">
+                <source srcset="./img/portfolio/portf8-mobile.jpg 1x, ./img/portfolio/portf8-mobile@2x.jpg 2x"
+                  media="(min-width: 320px)">
+                <img class="gallery-list__img" src="./img/portfolio/portf8-mobile.jpg" alt="изображение лейбла" />
+              </picture>
+
+              
+              <div class="gallery-list__text is-hidden">
+                <p>Experience our Indulgent Pedicure and O2 Manicure in one of our zero gravity lounge chairs, tucked away in your own
+                private area. Beauty never looked so effortless.</p>
+              </div>
+            </div>
+            <div class="gallery-list__description">
+            <h2 class="gallery-list__title">
+              Manicure & Pedicure
+            </h2>
+            <p class="gallery-list__type">starting from $25</p>
+            </div>
+          </a>
+        </li>
+
+        <li class="gallery-list__item">
+          <a class="gallery-list__link link" href="">
+            <div class="wrapper-img">
+              <picture>
+                <source srcset="./img/portfolio/portf9-desktop.jpg 1x, ./img/portfolio/portf9-desktop@2x.jpg 2x"
+                  media="(min-width: 1200px)">
+                <source srcset="./img/portfolio/portf9-tablet.jpg 1x, ./img/portfolio/portf9-tablet@2x.jpg 2x"
+                  media="(min-width: 768px)">
+                <source srcset="./img/portfolio/portf9-mobile.jpg 1x, ./img/portfolio/portf9-mobile@2x.jpg 2x"
+                  media="(min-width: 320px)">
+                <img class="gallery-list__img" src="./img/portfolio/portf9-mobile.jpg" alt="руки на клавиатуре лептопа"/>
+              </picture>
+
+             
+              <div class="gallery-list__text is-hidden">
+                <p>Revel in the romance and indulge together. Enjoy a couples massage and romantic lounge experience complete with
+                champagne and sweet treats.</p>
+              </div>
+            </div>
+            <div class="gallery-list__description">
+            <h2 class="gallery-list__title">
+              <span lang="en">Couples Escape Spa Day</span>
+            </h2>
+            <p class="gallery-list__type">$525 per couple</p>
+            </div>
+          </a>
+        </li>
+        </ul>
+      </section>
+    </main>
+
+    <!--FOOTER-->
+        <footer class="footer">
+          <div class="container">
+            <div class="footer-wrapper">
+              <div class="footer__left-side">
+                <a href="index.html" lang="en" class="logo link">Be<span class="logo-light">Green</span></a>
+                <address class="address">
+                  <ul class="address-list list">
+                    <li class="address-list__item">
+                      <a href="https://goo.gl/maps/3HEC5Mjorfed5Ltf7" target="_blank" class="address-list__map link">г. Киев,
+                        Sri Lanka, Nuvara Eliya</a>
+                    </li>
+        
+                    <li class="address-list__item">
+                      <a href="mailto:info@devstudio.com" target="_blank" class="address-list__link link">info@begreenholistic.com</a>
+                    </li>
+        
+                    <li class="address-list__item">
+                      <a href="tel:+00000000000" class="address-list__link link">+00 000 000 000</a>
+                    </li>
+                  </ul>
+                </address>
+              </div>
+              <div class="footer-social">
+                <b class="follow-text">FOLLOW US</b>
+                <ul class="footer-social__list list">
+                  <li class="footer-social__item">
+                    <a href="#" class="footer-social__link link"><svg width="20px" height="20px">
+                        <use href="./img/sprite.svg#instagram"></use>
+                      </svg></a>
+                  </li>
+                  <li class="footer-social__item">
+                    <a href="#" class="footer-social__link link"><svg width="20px" height="20px">
+                        <use href="./img/sprite.svg#twitter"></use>
+                      </svg></a>
+                  </li>
+                  <li class="footer-social__item">
+                    <a href="#" class="footer-social__link link"><svg width="20px" height="20px">
+                        <use href="./img/sprite.svg#facebook"></use>
+                      </svg></a>
+                  </li>
+                  <li class="footer-social__item">
+                    <a href="#" class="footer-social__link link"><svg width="20px" height="20px">
+                        <use href="./img/sprite.svg#linkedin"></use>
+                      </svg></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        
+            <div class="footer-subscribe">
+              <label for="user-mail">
+                <span class="follow-text">SUBSCRIBE FOR AN UPDATE</span>
+              </label>
+              <form class="footer-subscribe__form">
+                <input type="email" name="user-mail" id="user-mail" class="footer-subscribe__input-email" placeholder="E-mail">
+                <button type="submit" name="subscribe-button" class="button footer-subscribe__submit-email">Subscribe<svg
+                    width="24px" height="24px">
+                    <use href="./img/sprite.svg#icon-send"></use>
+                  </svg></button>
+        
+              </form>
+        
+            </div>
+        
+          </div>
+        </footer>
+          <script src="./js/menu.js"></script>
+  </body>
+</html>
